@@ -1,4 +1,4 @@
-package com.hyunnique.loaschedule;
+package me.hyunnique.loaschedule;
 
 import org.springframework.boot.builder.SpringApplicationBuilder;
 import org.springframework.boot.web.servlet.support.SpringBootServletInitializer;

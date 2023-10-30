@@ -1,4 +1,4 @@
-package com.hyunnique.loaschedule.config;
+package me.hyunnique.loaschedule.config;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;

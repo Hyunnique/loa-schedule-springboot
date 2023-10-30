@@ -1,4 +1,4 @@
-package com.hyunnique.loaschedule.config;
+package me.hyunnique.loaschedule.config;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
@@ -17,10 +17,6 @@ public class SecurityConfig {
                 .authorizeHttpRequests((requests) -> requests
                         .requestMatchers("/api/**").authenticated()
                         .anyRequest().permitAll()
-                )
-                .formLogin((form) -> form
-                        .loginPage("/login")
-                        .permitAll()
                 )
                 .logout((logout) -> logout.permitAll());
 
